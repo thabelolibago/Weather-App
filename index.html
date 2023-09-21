@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Home/style.css">
+    <script src="script.js" defer></script>
+    <title>Weather App</title>
+    
+</head>
+<body>
+    <div class="card">
+        <div class="button-container">
+            <div class="button-left">
+                <div class="dropdown">
+                    <button><span class="menu-icon">&#9776;</span></button>
+                    <div class="dropdown-options">
+                        <a href="about.html">About Weather App</a>
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="button-center">
+                <button id="myweatherButton">My Weather</button>
+                <div class="content hidden">
+                    <img src="images/location-pin.png" height="50">
+                    <h2>Grant Location Access</h2>
+                    <p>Allow Access to get Weather information</p>
+                    <button id="grantaccessButton">GRANT ACCESS</button>
+                </div>
+            </div>
+            <div class="button-right">
+                <a href="search.html"><button id="searchButton">Search Weather</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
