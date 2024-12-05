@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const longitude = position.coords.longitude;
 
                 // Fetch weather data from OpenWeatherMap
-                const apiKey = "2d8fef17a92a4ef3839c7fcea8fb98db";
+                const apiKey = "";
                 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
 
                 fetch(apiUrl)
